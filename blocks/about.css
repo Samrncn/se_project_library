@@ -1,0 +1,39 @@
+.about {
+  padding: 58px 220px 82px 560px;
+  background-color: #1f1f1f;
+  color: #fff;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: flex;
+  position: relative;
+}
+
+.about__title {
+  margin: 0 0 32px;
+  font-size: 44px;
+  line-height: 52px;
+  font-weight: 500;
+}
+
+.about__content {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  max-width: 660px;
+  margin: 0 0 0 auto;
+}
+
+.about__paragraph:last-of-type {
+  margin-bottom: 0;
+}
+
+.about__paragraph {
+  margin: 0 0 20px;
+}
+
+.about__image {
+  width: 703px;
+  position: absolute;
+  top: -82px;
+  left: -271px;
+}
